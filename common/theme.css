@@ -1,0 +1,59 @@
+:root {
+  --color-primary: #363689;
+  --color-primary-light:#0071BC;
+  --color-secondary: #FF7BAC;
+  --color-neutral: #778899;
+  --background-gradient: linear-gradient(to right, rgba(0,113,188,1) 0%, rgba(237,30,120,1) 100%);
+  --color-grey-light: #F2F2F2;
+  --color-grey-dark: #CCCCCC;
+
+  --font-primary: "Montserrat", Arial, sans-serif;
+  --font-secondary: "Open Sans", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+h2 {
+  color: #000;
+  font-weight: 600;
+}
+
+h3 {
+  color: var(--color-primary);
+}
+
+h4 {
+  color: #000;
+  text-decoration: underline;
+}
+
+h5 {
+  color: #000;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: #000;
+  letter-spacing: 0.1em;
+}
+
+a {
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+em, strong, blockquote {
+  color: var(--font-primary);
+}
+
+li {
+  color: var(--color-neutral);
+}
