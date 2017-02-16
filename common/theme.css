@@ -1,8 +1,8 @@
 :root {
   --color-primary: #363689;
   --color-primary-light: #0071bc;
-  --color-secondary: #FF7bac;
-  --color-neutral: #778899;
+  --color-secondary: #ff7bac;
+  --color-neutral: #789;
   --background-gradient: linear-gradient(to right, rgba(0, 113, 188, 1) 0%, rgba(237, 30, 120, 1) 100%);
   --color-grey-light: #f2f2f2;
   --color-grey-dark: #ccc;
