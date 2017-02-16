@@ -2,6 +2,7 @@
   --color-primary: #363689;
   --color-primary-light: #0071bc;
   --color-secondary: #ff7bac;
+  --color-secondary-light: #ffb2ce;
   --color-neutral: #789;
   --background-gradient: linear-gradient(to right, rgba(0, 113, 188, 1) 0%, rgba(237, 30, 120, 1) 100%);
   --color-grey-light: #f2f2f2;
@@ -16,25 +17,30 @@ html {
 }
 
 h1 {
+  font-family: var(--font-primary);
   color: var(--color-secondary);
   font-weight: 600;
 }
 
 h2 {
+  font-family: var(--font-primary);
   color: #000;
   font-weight: 600;
 }
 
 h3 {
+  font-family: var(--font-primary);
   color: var(--color-primary);
 }
 
 h4 {
+  font-family: var(--font-primary);
   color: #000;
   text-decoration: underline;
 }
 
 h5 {
+  font-family: var(--font-secondary);
   color: #000;
   font-weight: 600;
 }
