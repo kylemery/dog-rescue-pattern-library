@@ -1,0 +1,60 @@
+.btn {
+  background-color: var(--color-secondary);
+  border-color: white;
+  border-radius: 40px;
+  padding: .5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  color: #fff;
+  letter-spacing: .1em;
+  background-image: var(--background-gradient);
+  background-size: 125% auto;
+}
+
+.btn-ghost {
+  background-image: none;
+  background-color: transparent;
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+  transition: background .25s, border-color .25s, color .25s;
+}
+
+.btn-ghost:hover {
+  background-image: none;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.all-banner {
+  height: 35em;
+  position: relative;
+  background-image: linear-gradient(to top, transparent, rgba(54,54,137,0.8) 0%, rgba(255,255,255,0) 50%),  url("../../images/mountain-dog.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5em;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+
+}
+
+.image-gradient {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  background-color: linear-gradient(to top, rgba(54,54,137,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+.bottom-gradient {
+  height: 1em;
+  background-image: var(--background-gradient);
+}

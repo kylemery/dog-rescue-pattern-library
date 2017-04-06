@@ -1,0 +1,32 @@
+.footer-all {
+  background-color: var(--color-primary);
+  text-align: right;
+  padding: 0.25em;
+  padding-bottom: 0.75em;
+  height: 3em;
+}
+
+.text a {
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding-top: 0.5em;
+}
+
+.social-media {
+  text-align: left;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size: 2em;
+  padding-left: 0.5em;
+  float: left;
+  padding-top: 0.15em;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  transition: background-color 0.25s;
+  border-radius: 30px;
+}
