@@ -14,7 +14,7 @@ body {
 
 .logo-hang {
   background-color: var(--color-secondary);
-  padding: 10px 10px 5px 10px;
+  padding: 10px 10px 5px;
   width: 145px;
   z-index: 9999;
   position: absolute;
@@ -38,9 +38,9 @@ a:hover {
   color: var(--color-secondary);
 }
 
-.unit {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+.nav-buttons .unit {
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -57,10 +57,12 @@ a:hover {
     width: 210px;
   }
 
-  .unit {
+  .nav-buttons .unit {
     padding-top: 1em;
     padding-bottom: 1em;
   }
+
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -77,14 +79,14 @@ a:hover {
     height: 4em;
   }
 
-  .unit {
+  .nav-buttons .unit {
     padding-top: 1.2em;
     padding-bottom: 1em;
   }
 
   .logo-hang {
     background-color: var(--color-secondary);
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 0;
     width: 270px;
     z-index: 9999;
     position: absolute;

@@ -1,32 +1,53 @@
 .footer-all {
   background-color: var(--color-primary);
-  text-align: right;
-  padding: 0.25em;
-  padding-bottom: 0.75em;
-  height: 3em;
+  padding: .25em;
+  padding-bottom: .75em;
+  text-align: center;
+  overflow: hidden;
 }
 
 .text a {
   background-color: transparent;
   border: none;
-  float: right;
-  padding-top: 0.5em;
-}
-
-.social-media {
-  text-align: left;
+  padding-top: .5em;
 }
 
 .social-media a {
   text-decoration: none;
   font-size: 2em;
-  padding-left: 0.5em;
-  float: left;
-  padding-top: 0.15em;
+  padding-left: .5em;
+  padding-top: .15em;
 }
 
-.btn:hover {
-  background-color: var(--color-secondary);
-  transition: background-color 0.25s;
-  border-radius: 30px;
+.foot-btn {
+  padding-left: .5em;
+  padding-right: .1em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .foot-btn {
+    padding-left: 1em;
+    padding-right: .5em;
+  }
+
+  .social-media a {
+    float: left;
+    text-align: left;
+  }
+
+  .text a {
+    float: right;
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .foot-btn {
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+
 }

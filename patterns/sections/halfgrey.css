@@ -1,0 +1,70 @@
+.halfgrey {
+  background-image: linear-gradient(to right, #fff 0%, #fff 49.999%, var(--color-grey-light) 50%, var(--color-grey-light) 100%);
+  height: 100%;
+  width: 100%;
+}
+
+.grey {
+  background-color: var(--color-grey-light);
+  height: 100%;
+  width: 100%;
+}
+
+.section-img {
+  height: 12em;
+  background-image: url("../../images/frisbee-dog.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-img-2 {
+  height: 12em;
+  background-image: url("../../images/bridge-dog.jpeg");
+  background-size: cover;
+  background-position: center 65%;
+}
+
+.section-img-3 {
+  height: 25em;
+  background-image: url("../../images/happy-dog.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.special-background {
+  background-color: var(--color-grey-dark);
+}
+
+.whitetext {
+  color: white;
+}
+
+.purptext {
+  color: var(--color-primary);
+}
+
+.perfect-middle {
+  margin: auto;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .section-img-3 {
+    height: 25em;
+    background-position: center 30%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .section-img-3 {
+    height: auto;
+    background-position: center 35%;
+  }
+
+}

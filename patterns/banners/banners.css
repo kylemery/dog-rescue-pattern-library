@@ -28,7 +28,16 @@
 .all-banner {
   height: 35em;
   position: relative;
-  background-image: linear-gradient(to top, transparent, rgba(54,54,137,0.8) 0%, rgba(255,255,255,0) 50%),  url("../../images/mountain-dog.jpg");
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/mountain-dog.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+.all-banner-2 {
+  height: 25em;
+  position: relative;
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/water-dog.jpeg");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -42,16 +51,23 @@
   text-align: center;
 }
 
-h1 {
-  color: white;
+.content-2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10em;
+  text-align: center;
+}
 
+.content, .content-2 h1 {
+  color: white;
 }
 
 .image-gradient {
   z-index: 1;
   position: absolute;
   bottom: 0;
-  background-color: linear-gradient(to top, rgba(54,54,137,1) 0%,rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to top, rgba(54, 54, 137, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .bottom-gradient {
