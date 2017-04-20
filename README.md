@@ -19,7 +19,7 @@ colors:
   secondary: |
     Hot pink is the perfect secondary colour for Loyal Rescue because it represents all the things this company is: playfulness, tenderness, sweetness, and love.
   neutral: |
-    This slate grey is bland and is only used for body text and small amounts of larger text.
+    This slate grey is bland and is only used for selectors and small amounts of color.
 ---
 
 **Loyal Rescue Inc. is a foster-based rescue and we do not operate a shelter.** We do not have viewing hours as each pet is in a private home. Should you be the successful applicant for this pet, you are then welcome to come and meet the dog.

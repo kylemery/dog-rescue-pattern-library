@@ -1009,7 +1009,7 @@ a:hover, a:active {
   outline: none;
 }
 
-a:focus,
+
 [tabindex="0"]:focus,
 details:focus,
 summary:focus,
@@ -1017,7 +1017,12 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 3px solid #000;
+  outline: none;
+  background-color: var(--color-neutral);
+}
+
+a:focus {
+  background-color: none;
 }
 
 a:focus, [tabindex="0"]:focus {

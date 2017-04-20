@@ -1,6 +1,6 @@
 .btn {
   background-color: var(--color-secondary);
-  border-color: white;
+  border: none;
   border-radius: 40px;
   padding: .5em;
   padding-left: 1.5em;
@@ -14,13 +14,12 @@
 .btn:hover {
   background-color: var(--color-primary);
   background-image: none;
-  border-color: white;
 }
 
 .btn-light {
   background-image: none;
   background-color: var(--color-secondary-light);
-  border-color: var(--color-secondary-light);
+  border: none;
   color: #fff;
   transition: background .25s, border-color .25s;
 }
@@ -28,18 +27,33 @@
 .btn-light:hover {
   background-image: none;
   background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
 }
 
 .btn-ghost {
   background-image: none;
   background-color: transparent;
+  border: solid 2px;
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+  transition: background .25s, border-color .25s, color .25s;
+}
+
+.btn-ghost-wh {
+  background-image: none;
+  background-color: white;
+  border: solid 2px;
   border-color: var(--color-secondary);
   color: var(--color-secondary);
   transition: background .25s, border-color .25s, color .25s;
 }
 
 .btn-ghost:hover {
+  background-image: none;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-ghost-wh:hover {
   background-image: none;
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);

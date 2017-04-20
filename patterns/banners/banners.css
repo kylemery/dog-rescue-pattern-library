@@ -26,18 +26,27 @@
 }
 
 .all-banner {
-  height: 35em;
+  height: 20em;
   position: relative;
-  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/mountain-dog.jpg");
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/mountain-dog.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
 }
 
 .all-banner-2 {
-  height: 25em;
+  height: 20em;
   position: relative;
-  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/water-dog.jpeg");
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/water-dog.jpeg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+.all-banner-3 {
+  height: 20em;
+  position: relative;
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/forest-dog.jpeg");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -59,8 +68,12 @@
   text-align: center;
 }
 
-.content, .content-2 h1 {
-  color: white;
+.content-3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10em;
+  text-align: center;
 }
 
 .image-gradient {
@@ -73,4 +86,50 @@
 .bottom-gradient {
   height: 1em;
   background-image: var(--background-gradient);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .all-banner {
+    height: 25em;
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/mountain-dog.jpg");
+  }
+
+  .all-banner-2 {
+    height: 25em;
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/water-dog.jpeg");
+  }
+
+  .all-banner-3 {
+    height: 25em;
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/forest-dog.jpeg");
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .all-banner {
+    height: 35em;
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/mountain-dog.jpg");
+  }
+
+  .all-banner-2 {
+    height: 30em;
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/water-dog.jpeg");
+  }
+
+  .all-banner-3 {
+    height: 30em;
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/forest-dog.jpeg");
+  }
+
+  .content-2 {
+    bottom: 5em;
+  }
+
+  .content-3 {
+    bottom: 5em;
+  }
+
 }
