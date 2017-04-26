@@ -33,6 +33,7 @@ input {
 }
 
 select {
+  width: 9em;
   z-index: 1;
   top: 1px;
   left: 1px;
