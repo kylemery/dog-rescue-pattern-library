@@ -1,0 +1,1 @@
+The header contains the nav and the logo. This will appear on each page above the banner, and must have the banner sitting underneath it. When a user is on a page, the current page will be pink instead of white so the user knows where they are. There is no hamburger menu to make it more accessible.
