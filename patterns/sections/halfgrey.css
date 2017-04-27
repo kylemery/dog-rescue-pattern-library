@@ -12,21 +12,21 @@
 
 .section-img {
   height: 12em;
-  background-image: url("../../images/frisbee-dog.jpeg");
+  background-image: url("../../images/frisbee-dog.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section-img-2 {
   height: 12em;
-  background-image: url("../../images/bridge-dog.jpeg");
+  background-image: url("../../images/bridge-dog.jpg");
   background-size: cover;
   background-position: center 65%;
 }
 
 .section-img-3 {
   height: 25em;
-  background-image: url("../../images/happy-dog.jpeg");
+  background-image: url("../../images/happy-dog.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -37,7 +37,7 @@
 .all-banner-2 {
   height: 20em;
   position: relative;
-  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/water-dog.jpeg");
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/water-dog.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -46,7 +46,7 @@
 .all-banner-3 {
   height: 20em;
   position: relative;
-  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/forest-dog.jpeg");
+  background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 100%), url("../../images/forest-dog.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -97,12 +97,12 @@
 
   .all-banner-2 {
     height: 25em;
-    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/water-dog.jpeg");
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/water-dog.jpg");
   }
 
   .all-banner-3 {
     height: 25em;
-    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/forest-dog.jpeg");
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 80%), url("../../images/forest-dog.jpg");
   }
 
 }
@@ -116,12 +116,12 @@
 
   .all-banner-2 {
     height: 30em;
-    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/water-dog.jpeg");
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/water-dog.jpg");
   }
 
   .all-banner-3 {
     height: 30em;
-    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/forest-dog.jpeg");
+    background-image: linear-gradient(to top, transparent, rgba(54, 54, 137, .8) 0%, rgba(255, 255, 255, 0) 50%), url("../../images/forest-dog.jpg");
   }
 
   .content-2 {
